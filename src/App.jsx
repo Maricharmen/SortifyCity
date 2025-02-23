@@ -1,14 +1,22 @@
 import React from 'react';
+import Title from './components/Title';
+import MenuItems from './components/MenuItems';
+import MenuDatos from './components/MenuDatos'
 import CityMap from './components/CityMap';
 
-function App() {
+const App = () => {
+  
   return (
+
     <div>
-      <h1>Sortify City</h1>
+      <Title />
+      <MenuItems />
+      <MenuDatos />
       <CityMap />
     </div>
+
   );
-}
+};
 
 export default App;
 
