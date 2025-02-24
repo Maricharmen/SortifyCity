@@ -1,10 +1,11 @@
 import React from 'react';
+import './subprincipal.css';
 
 const CityMap = () => {
 
   return (
     
-    <div className="p-4 bg-white border rounded-lg mt-4">
+    <div className = 'seccion middle'>
       <p>Espacio para las plantillas de la ciudad.</p>
     </div>
     

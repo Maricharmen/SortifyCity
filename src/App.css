@@ -1,0 +1,9 @@
+  .Principal{
+    display:flex;
+    justify-content: center;
+  }
+
+  .SubPrincipal{
+    display:flex;
+    padding: 20px;
+  }

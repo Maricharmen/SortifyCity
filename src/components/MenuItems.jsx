@@ -1,10 +1,13 @@
 import React from 'react';
+import './subprincipal.css';
 
 const MenuItems = () => (
-  <nav className="bg-gray-800 p-3 rounded-lg flex justify-center">
-    <button className="bg-blue-500 text-white px-6 py-2 rounded-lg mx-2">Carretera</button>
-    <button className="bg-red-500 text-white px-6 py-2 rounded-lg mx-2">Semáforo</button>
-  </nav>
+  <div className = 'seccion left'>
+    <button className='game-buttom'>Inicio</button>
+    <button className='game-buttom'>Fin</button>
+    <button className='game-buttom'>Carretera</button>
+    <button className='game-buttom'>Semaforo</button>
+  </div>
 );
 
 export default MenuItems;
